@@ -12,5 +12,5 @@ spec:
   #- name: gcp1-hive
   clusterSelector:
     matchLabels:
-      vendor: OpenShift
+      environment: dev
   #clusterReplicas: 1  #Apply to how many matched clusters, default is ALL
